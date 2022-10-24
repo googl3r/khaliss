@@ -1,0 +1,22 @@
+React:
+ - class oriented components:
+    - componentDidMount
+    - componentWillMount
+
+ - function oriented aka Hooks (React Hooks)
+
+ * use react hooks
+ * presentational component vs behavioral component
+ ------------------------------------
+
+ un component: <html/css>:
+    results = [];
+    - useEffect({
+        store.dispatch(getAvailabilities);
+        axios.get('http://backend.com/')
+        .then(response => result = response)
+        .catch(error => console.log(error);
+    },
+    ['state']),
+    - ngOnInit
+    render
